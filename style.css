@@ -1,0 +1,445 @@
+@font-face {
+	font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal; 
+	src:local('Raleway'), 
+		url(Fonts/Raleway-Regular.ttf);
+}
+@font-face {
+	font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: normal; 
+	src:local('Philosopher'), 
+		url(Fonts/Philosopher-Regular.ttf);
+}
+@font-face {
+	font-family: 'Raleway-light';
+    font-style: normal;
+    font-weight: normal; 
+	src:local('Raleway'), 
+		url(Fonts/Raleway-Light.ttf);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    margin: 0px;
+    color: #222222aa;
+    top: 0px;
+}
+ul {
+    list-style: none;
+}
+.bg-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Images/menu.jpg);
+    width: 100%;
+    height: 786px;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 47px;
+    background-color: #96a159ba;
+}
+.header-wrap {
+    display: flex;
+    justify-content:center ;
+}
+.header-menu {
+    display: flex;
+    margin: 13px -11px 0px 0px;
+    gap: 24px;
+    list-style: none;
+    padding: 0px;
+    font-size: 10.9px;
+    letter-spacing: 0.09px;
+}
+.header-menu li a {
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+}
+.header-menu li:nth-child(2) {
+    margin-top: -2px;
+}
+.header-menu>li>a:hover {
+    color: #4b4c21;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 725px;
+    top: 18px;
+    padding:28px 0px 0px 0px;
+}
+.submenu li {
+    padding: 10px 2px;
+    text-align: center;
+    background-color: #4b4c215a;
+}
+.submenu li:hover {
+    background-color: #4b4c21b6;
+}
+li:hover > .submenu{
+    display: block;
+}
+   
+.Tea_for_your_health {
+    display: flex;
+    flex-direction: column;
+    width: 571px;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    margin: -2px -8px 0px 0px;
+    letter-spacing: 0.9px;
+}
+h1 {
+    color: #EDF0BF;
+    margin-bottom: 31px;
+    line-height: 95px;
+    font-size: 84px;
+    text-align: center;
+    font-family: 'Philosopher';
+}
+.bg-img #strelka {
+    position: relative;
+    height: 44px;
+    width: auto;
+    margin: 349px -7px 0px 0px;
+}
+/************************************************************************/
+.catalog {
+    text-align: center;
+}
+.catalog p {
+    margin-top: -3px;
+    margin: -3px 10px 0px 0px ;
+    color:#96A159;
+    font-family: Philosopher;
+    font-size: 36px;
+}
+.catalog-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 38px 0px 0px 0px;
+}
+.blok {
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 100%;
+    
+    height: 523px;
+    background-position: center;
+    background-size: cover;
+}
+.blok img {
+    width: 100%;
+    height: 500px;
+}
+.blok p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.blok a {
+    text-decoration: none;
+}
+/*******/
+.blok-1 {
+    background-image: url(Images/main-page-catalog0.jpg);
+    width: 488px;
+}
+.blok-1 p {
+    margin: 0px 44px 36px 0px;
+}
+
+/*******/
+.blok-2 {
+    background-image: url(Images/menu-catalog.jpg);
+    width: 531px;
+}
+/*******/
+.blok-3 {
+    background-image: url(Images/main-page-catalog1.jpg);
+    width: 500px;
+}
+/*******/
+.catalog-button {
+    font-size: 14px;
+    color: white;
+    padding:12px 10px 10px 12px;
+    background-color: #c5c784;
+    margin-bottom: 78px;
+}
+.catalog-button:hover {
+    background-color: #b5b864;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+/************************************************************************/
+.company {
+    display: flex;
+    background-image: url(Images/o_company.png);
+    width: 100%;
+    height: 756px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+.company-container {
+    position: relative;
+    margin: 154px 0px 0px 0px;
+    background-color: #eef0bf;
+    text-align: center;
+    width: 489px;
+    height: 415px;
+    line-height: 25px;
+    padding: 75px 70px 0px 70px;
+}
+.company-container p:nth-child(1) {
+    color:#96A159; 
+    font-family: Philosopher; 
+    font-size: 35px;
+    margin: -1px -7px 0px 0px;
+    letter-spacing: 0.1px
+}
+
+#kind_tea {
+    font-size: 15px;
+    line-height: 23.9px;
+    margin: 25px 0px 0px 8px;
+}
+.company-container>hr {
+    background-color: #96A159;
+    height: 0.5px;
+    border: none;
+    width: 167px;
+    margin: 32px 0px 22px 164px;
+}
+/************************************************************************/
+.xitu-prodash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+.xitu-prodash p {
+    text-align: center;
+    margin: -11px 0px 0px 6px;
+    color:#96A159;
+    font-family: 'Philosopher';
+    font-size: 35px;
+    letter-spacing: 0.01px;
+}
+.xitu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin: 52px 260px 93px 270px;
+    width: 100%;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #eef0bf;
+    height: 538px;
+    width: 215px;
+
+}
+.cards img {
+    width: 100%;
+    height: 207px;
+    position: relative;
+}
+.cards p> .name-tea{
+    position: absolute;
+    margin: -8px 0px 0px -71px;
+    font-family: Philosopher;
+    font-size: 16px;
+}
+/*******/
+.cards:nth-child(1) p> .name-tea {
+    position: absolute;
+    margin: -11px 0px 0px -70px;
+    letter-spacing: 0.3px;
+    line-height: 22.4px;
+}
+/******/
+.cards:nth-child(4) p> .name-tea{
+    position: absolute;
+    margin: -8px 0px 0px -61px;
+}
+.cards:nth-child(4) p> .cena {
+    position: absolute;
+    margin: 5px 0px 0px -21px;
+}
+.cards:nth-child(4) > .buy-button {
+    margin: 49px 45px 30px 41px;
+}
+/******/
+.cards:nth-child(3) p> .name-tea{
+    position: absolute;
+    margin: -7px 0px 0px -65px;
+}
+.cards:nth-child(3) p> .cena {
+    position: absolute;
+    margin: 6px 0px 0px -21px;
+}
+/******/
+.cards p> .cena {
+    position: absolute;
+    margin: 6px 0px 0px -45px;
+}
+.cards p {
+    margin: 28px 0px 0px 0px;
+    font-size: 15px;
+    text-align: center;
+    color: #222222aa;
+    font-family: 'Raleway';
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+.buy-button {
+    background-color: #c5c784;
+    font-size: 12px;
+    color: white;
+    padding:10px 6px 12px 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 51px 45px 30px 44px;
+}
+
+.buy-button:hover {
+    background-color: #b5b864;
+}
+/************************************************************************/
+.tea_teremonia {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height:739px;
+    width: 100%;
+}
+.teremonia-info {
+    background-color: #94a088;
+    flex-shrink: 1.35;
+    width: 674px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 171px 55px 100px 53px;
+}
+.teremonia-info .teremonia-text {
+    margin: 24px 16px 0px 0px;
+    line-height: 23px;
+    letter-spacing: 0.01px;
+    width: 639px;
+    color: #2f3e1f;
+    font-size: 14.9px;
+}
+.teremonia-img {
+    display: flex;
+    background-image: url(Images/block0.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    flex-grow: 1.5;
+}
+.zagalovok {
+    color: #1a3504;
+    font-size: 34px;
+    font-family: Philosopher;
+    text-align: center;
+    margin: 40px 0px 0px -23px;
+    letter-spacing: 0.39px;
+}
+/************************************************************************/
+.contact {
+    background-image: url(Images/block1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 738px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-container {
+    background-color: #eef0bf;
+    text-align: center;
+    width: 590px;
+    height: 315px;
+    line-height: 25px;
+    padding: 59px 20px 0px 20px;
+    margin: 57px -7px 0px 0px;
+}
+.contact-container p{
+    margin: 16px 4px 0px 0px;
+    letter-spacing: 0.1px;
+}
+.contact-container>hr {
+    background-color: #96A159;
+    height: 0.5px;
+    border: none;
+    width: 167px;
+    margin: 25px 0px 25px 209px;
+}
+#contact-text {
+    color: #2222226a;
+    line-height: 24px;
+    margin: 6px 0px 0px 0px;
+    font-size: 15px;
+}
+/************************************************************************/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    height: 81px;
+    background-color: #C5C885;
+	left: 0;
+	bottom: 0;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 29px;
+    list-style: none;
+    padding: 0px;
+    font-size: 10.9px;
+    letter-spacing: 0.5px;
+    margin: 6px -4px 0px 0px;
+}
+.footer-menu li a {
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+}
+.footer-menu li a:hover {
+    color: #95984b;
+}
+/*******************************Адаптив****************************************/
+/*@media screen and (width:620px) {
+    .bg-img{
+        width: 620px;
+
+    }
+}*/
