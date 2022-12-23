@@ -27,6 +27,7 @@ body {
     margin: 0px;
     color: #222222aa;
     top: 0px;
+    overflow-x: hidden;
 }
 ul {
     list-style: none;
@@ -84,6 +85,9 @@ ul {
     padding: 10px 2px;
     text-align: center;
     background-color: #4b4c215a;
+}
+.submenu li:nth-child(2) {
+    margin-top: 0px;
 }
 .submenu li:hover {
     background-color: #4b4c21b6;
